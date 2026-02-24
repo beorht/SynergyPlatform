@@ -1,0 +1,8 @@
+[book]
+authors = ["beorht"]
+language = "en"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "light"
+additional-css = ["theme/synergy.css"]
