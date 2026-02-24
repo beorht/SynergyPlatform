@@ -66,7 +66,7 @@ body {
 }
 
 .chapter li.part-title {
-  color: #ff8d92;
+  color: #000000;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -74,13 +74,15 @@ body {
 }
 
 .chapter li a {
+  color: #000000;
   border-radius: 10px;
   margin: 4px 10px;
   padding: 8px 10px;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .chapter li a:hover {
+  color: #7a7a7a;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -91,13 +93,16 @@ body {
 }
 
 #mdbook-content {
-  max-width: 980px;
+  max-width: 2940px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .content main {
   background: var(--synergy-surface);
   border: 1px solid var(--synergy-border);
   border-radius: 18px;
+  margin-top: 20px;
   padding: 2rem 2.4rem;
   box-shadow: 0 16px 36px rgba(14, 16, 18, 0.06);
 }
@@ -152,13 +157,14 @@ body {
 }
 
 .nav-chapters {
-  background: var(--synergy-red);
-  color: #fff;
+  background: transparent;
+  color: var(--synergy-red);
   border-radius: 999px;
 }
 
 .nav-chapters:hover {
-  background: var(--synergy-red-dark);
+  background: transparent;
+  color: #7a7a7a;
 }
 
 @media (max-width: 900px) {
