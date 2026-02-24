@@ -65,6 +65,11 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+#mdbook-sidebar,
+#mdbook-sidebar * {
+  color: #000000;
+}
+
 .chapter li.part-title {
   color: #000000;
   font-weight: 700;
@@ -90,6 +95,10 @@ body {
   background: linear-gradient(135deg, rgba(216, 33, 40, 0.95), rgba(173, 22, 28, 0.95));
   color: #fff;
   font-weight: 700;
+}
+
+#mdbook-sidebar .chapter li a.active {
+  color: #ffffff;
 }
 
 #mdbook-content {
