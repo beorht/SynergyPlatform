@@ -1,7 +1,7 @@
 # Summary
 
-- [Dop Silki](./silki.md)
-- [Chapter 1](./etap_1.md)
-- [Chapter 2](./etap_2.md)
-- [Chapter 3](./etap_3.md)
-- [Chapter 4](./etap_4.md)
+- [Доп. ссылки](./silki.md)
+- [Задание 1](./etap_1.md)
+- [Задание 2](./etap_2.md)
+- [Задание 3](./etap_3.md)
+- [Задание 4](./etap_4.md)
